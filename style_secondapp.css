@@ -122,8 +122,8 @@ a{
     }
 
     h3{
-        position: relative;
-        bottom: auto;
+        position: absolute;
+        bottom: 0;
         text-align: center;
         font-size: small;
     }
