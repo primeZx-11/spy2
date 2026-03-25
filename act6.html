@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إختبر معرفتك</title>
+    <link rel="stylesheet" href="bothpages.css">
+    <link rel="stylesheet" href="act6.css">
+</head>
+<body>
+    <header>إختبر معرفتك</header>
+    <div class="funf_part">
+        <div id="container">
+            <p id="timer">10</p>
+            <!-- سؤال 1 -->
+            <div id="lvl1next1" class="lvls">
+                <p>شيء كلما أخذت منه يكبر، ما هو؟</p>
+                <button onclick="nextlvl(false)">البحر</button>
+                <button onclick="nextlvl(true)">الحفرة</button>
+                <button onclick="nextlvl(false)">الرمل</button>
+                <button onclick="nextlvl(false)">الطريق</button>
+            </div>
+            <!-- سؤال 2 -->
+            <div id="lvl1next2" class="lvls" style="display: none;">
+                <p>شيء يمشي بلا رجلين ويبكي بلا عينين، ما هو؟</p>
+                <button onclick="nextlvl(false)">المطر</button>
+                <button onclick="nextlvl(false)">الريح</button>
+                <button onclick="nextlvl(true)">السحاب</button>
+                <button onclick="nextlvl(false)">الليل</button>
+            </div>
+            <!-- سؤال 3 -->
+            <div id="lvl1next3" class="lvls" style="display: none;">
+                <p>أنا أخضر في الحقل، أحمر في السوق، وأصفر عندك في البيت، ما أنا؟</p>
+                <button onclick="nextlvl(false)">موز</button>
+                <button onclick="nextlvl(false)">طماطم</button>
+                <button onclick="nextlvl(false)">فلفل</button>
+                <button onclick="nextlvl(true)">تفاح</button>
+            </div>
+            <!-- سؤال 4 -->
+            <div id="lvl1next4" class="lvls" style="display: none;">
+                <p>ما هو الشيء الذي كلما جاف، أصبح أكثر رطوبة؟</p>
+                <button onclick="nextlvl(false)">الماء</button>
+                <button onclick="nextlvl(true)">المنشفة</button>
+                <button onclick="nextlvl(false)">المطر</button>
+                <button onclick="nextlvl(false)">البحر</button>
+            </div>
+            <!-- سؤال 5 -->
+            <div id="lvl1next5" class="lvls" style="display: none;">
+                <p>شيء لك وحدك، يستخدمه الآخرون أكثر منك، ما هو؟</p>
+                <button onclick="nextlvl(false)">الهاتف</button>
+                <button onclick="nextlvl(true)">الاسم</button>
+                <button onclick="nextlvl(false)">الوقت</button>
+                <button onclick="nextlvl(false)">المال</button>
+            </div>
+            <!-- سؤال 6 -->
+            <div id="lvl1next6" class="lvls" style="display: none;">
+                <p>شيء كلما تكلمت عنه، كذب، ما هو؟</p>
+                <button onclick="nextlvl(true)">الصمت</button>
+                <button onclick="nextlvl(false)">الكذب</button>
+                <button onclick="nextlvl(false)">الغيب</button>
+                <button onclick="nextlvl(false)">الكلام</button>
+            </div>
+            <!-- سؤال 7 -->
+            <div id="lvl1next7" class="lvls" style="display: none;">
+                <p>شيء ليس له قلب ولا دم، ومع ذلك يعيش، ما هو؟</p>
+                <button onclick="nextlvl(false)">الحجر</button>
+                <button onclick="nextlvl(false)">النار</button>
+                <button onclick="nextlvl(false)">الماء</button>
+                <button onclick="nextlvl(true)">النبات</button>
+            </div>
+            <!-- سؤال 8 -->
+            <div id="lvl1next8" class="lvls" style="display: none;">
+                <p>أنا شيء كلما أخذت مني أزداد، ما أنا؟</p>
+                <button onclick="nextlvl(true)">الحفرة</button>
+                <button onclick="nextlvl(false)">الوقت</button>
+                <button onclick="nextlvl(false)">المعرفة</button>
+                <button onclick="nextlvl(false)">المال</button>
+            </div>
+            <!-- سؤال 9 -->
+            <div id="lvl1next9" class="lvls" style="display: none;">
+                <p>شيء له أسنان ولا يعض، ما هو؟</p>
+                <button onclick="nextlvl(true)">المشط</button>
+                <button onclick="nextlvl(false)">المقص</button>
+                <button onclick="nextlvl(false)">الزجاج</button>
+                <button onclick="nextlvl(false)">المطرقة</button>
+            </div>
+            <!-- سؤال 10 -->
+            <div id="lvl1next10" class="lvls" style="display: none;">
+                <p>شيء يمكنك رؤيته في الليل ولا يمكنك لمسه، ما هو؟</p>
+                <button onclick="nextlvl(true)">القمر</button>
+                <button onclick="nextlvl(false)">الظل</button>
+                <button onclick="nextlvl(false)">النجوم</button>
+                <button onclick="nextlvl(false)">الهواء</button>
+            </div>
+            <!-- سؤال 11 -->
+            <div id="lvl1next11" class="lvls" style="display: none;">
+                <p>ما هو الشيء الذي يمتلك مفاتيح ولكن لا يفتح أي باب؟</p>
+                <button onclick="nextlvl(false)">السيارة</button>
+                <button onclick="nextlvl(false)">القفل</button>
+                <button onclick="nextlvl(false)">الكمبيوتر</button>
+                <button onclick="nextlvl(true)">البيانو</button>
+            </div>
+            <!-- سؤال 12 -->
+            <div id="lvl1next12" class="lvls" style="display: none;">
+                <p>شيء يكتب ولا يقرأ، ما هو؟</p>
+                <button onclick="nextlvl(true)">القلم</button>
+                <button onclick="nextlvl(false)">الكمبيوتر</button>
+                <button onclick="nextlvl(false)">الكتاب</button>
+                <button onclick="nextlvl(false)">الورقة</button>
+            </div>
+            <p id="message"></p>
+        </div>
+    </div>
+    <footer>Speed Up</footer>
+    <audio src="v-mission-complete.mp3" id="win"></audio>
+    <audio src="tuomas_data-wrong-answer-21-199825.mp3" id="lose"></audio>
+    <script src="script6.js"></script>
+</body>
+</html>

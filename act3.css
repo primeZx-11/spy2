@@ -1,0 +1,207 @@
+/* الصفحة كاملة */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f0f7; /* لون خلفية هادئ */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* الهيدر */
+header {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.8em;
+    font-weight: bold;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+}
+
+/* الكونتينر */
+#container {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* تايمر */
+#timer {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ff8c00;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* رسالة النتيجة */
+#message {
+    position: fixed;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    min-height: 30px;
+}
+
+/* كل سؤال */
+.lvl {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* فقرة السؤال */
+.lvl p {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* أزرار الاختيار */
+.lvl button {
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #90e0ef;
+    color: #03045e;
+}
+
+/* تأثير عند المرور على الأزرار */
+.lvl button:hover {
+    background-color: #00b4d8;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* الفوتر */
+footer {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+    font-weight: bold;
+    box-shadow: 0px -2px 6px rgba(0,0,0,0.2);
+}
+a{
+    position: absolute;
+    left:20%;
+}
+#next_act{
+    border: none;
+    font-size: large;
+    background-color: rgba(23, 12, 179, 0.742);
+    border-radius: 4px;
+    width: 180px;
+    height: 30px;
+    transition: background-color 0.4s ease , transform 0.4s ease;
+    cursor: pointer;
+}
+#next_act:hover{
+    transform: scale(1.1);
+    background-color: none;
+}
+a{
+    text-decoration: none;
+}
+/* ======= متجاوب ======= */
+@media screen and (max-width: 1200px){
+    #container{
+        width: 85%;
+        padding: 25px;
+    }
+    .lvl p{
+        font-size: 1.2em;
+    }
+    .lvl button{
+        font-size: 0.95em;
+        padding: 9px 18px;
+    }
+}
+
+@media screen and (max-width: 860px){
+    #container{
+        width: 90%;
+        padding: 20px;
+    }
+    .lvl p{
+        font-size: 1em;
+    }
+    .lvl button{
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+    #timer{
+        font-size: 1em;
+        padding: 8px 12px;
+    }
+    #next_act{
+        width: 160px;
+        height: 28px;
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 760px){
+    #container{
+        width: 95%;
+        padding: 20px;
+    }
+    .lvl p{
+        margin-top: 15px;
+        font-size: 0.8em;
+    }
+    .lvl button{
+        width: 120px;
+        font-size: 0.85em;
+        padding: 7px 14px;
+        margin-top: 15px;
+    }
+    #timer{
+        font-size: 0.9em;
+        padding: 6px 10px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    header{
+        font-size: 1.4em;
+        padding: 15px;
+    }
+    .lvl p{
+        font-size: 0.95em;
+    }
+    .lvl button{
+        width: 100px;
+        font-size: 0.8em;
+        padding: 6px 12px;
+    }
+    #timer{
+        font-size: 0.8em;
+        padding: 5px 8px;
+    }
+    #next_act{
+        width: 140px;
+        height: 25px;
+        font-size: small;
+    }
+}
