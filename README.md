@@ -11,22 +11,6 @@
     <title>اختبر معرفتك - لعبة أسئلة ذكاء</title>
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="bothpages.css">
-        <style>
-        /** update 0.1*/
-        @media screen and (max-width:670px){
-           header{
-            font-size: larger;
-           }
-            h4{
-                width: 90%;
-                max-width: 20px;
-            }
-            #play{
-                max-width: 100px;
-                font-size: small;
-            }
-        }
-    </style>
 </head>
 <body>
     <header>
