@@ -13,9 +13,6 @@
     <link rel="stylesheet" href="bothpages.css">
 </head>
 <body>
-    <header>
-        the ancient game
-    </header>
     <p id="start"><button>play sound</button></p><audio id="bgAudio" src="samuelfjohanns-nervous-rhythmic-drivers-05-120840 (1).mp3" loop></audio>
     <nav>
         <div class="btn">
