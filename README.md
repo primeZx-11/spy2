@@ -14,9 +14,6 @@
         <style>
         /** update 0.1*/
         @media screen and (max-width:670px){
-            h4{
-                width: 25px;
-            }
             #play{
                 max-width: 100px;
                 font-size: small;
