@@ -109,7 +109,7 @@ a{
         left: 2.5%;
         height: auto;
         padding: 10px;
-        bottom: 20px;
+        bottom: 30px;
     }
 
     .qstn{
@@ -124,8 +124,8 @@ a{
     }
 
     #timer{
-        padding: 6px 8px;
-        font-size: 0.7rem;
+        padding: 5px 7px;
+        font-size: 30px;
         left:0;
     }
 }
