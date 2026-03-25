@@ -55,7 +55,8 @@ p{
 h3{
     position: absolute;
     bottom: 0;
-    box-shadow: 4px 0px 1pc red;
+    box-shadow: 4px 2px 4px #6495ED;
+    background-color: yellow; 
 }
 
 @media screen and (max-width: 1200px){
