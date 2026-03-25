@@ -27,11 +27,15 @@ footer{
     bottom: 0;
     width: 100%;
     padding: 20px;
-    box-shadow: 1px  4px 1px 7px rgb(95, 200, 223);
+    box-shadow: 1px  4px 1px 4px rgb(95, 200, 223);
 }
-
+@media screen and (max-width: 1000px){
+    font-size:small;
+}
 @media screen and (max-width: 670px){
 footer,header{
-        font-size:small;
+        font-size:x-small;
+        text-align:center;
+        left:0;
     }
 }
