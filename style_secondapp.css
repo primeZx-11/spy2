@@ -63,9 +63,9 @@ h3{
         font-size: x-large;
     }
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1080px){
     h3{
-        font-size: larger;
+        font-size: large;
     }
 }
 @media screen and (max-width: 860px){
