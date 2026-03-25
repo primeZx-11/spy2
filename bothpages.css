@@ -28,6 +28,7 @@ footer{
     width: 100%;
     padding: 20px;
     box-shadow: 1px  4px 1px 4px rgb(95, 200, 223);
+    left:0;
 }
 @media screen and (max-width: 1000px){
     font-size:small;
@@ -36,6 +37,5 @@ footer{
 footer,header{
         font-size:x-small;
         text-align:center;
-        left:0;
     }
 }
