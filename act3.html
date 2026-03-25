@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>اختبار ذكاء</title>
+<link rel="stylesheet" href="bothpages.css">
+<link rel="stylesheet" href="act3.css">
+</head>
+
+<body>
+<header>اختبار ذكاء</header>
+<div class="third_part">
+<div id="container">
+
+
+<div id="timer">10</div>
+<div id="message"></div>
+
+
+<div id="lvl1next1" class="lvl">
+<p>ناتج 5 + 5 × 5</p>
+<button onclick="nextlvl(false)">25</button>
+<button onclick="nextlvl(true)">30</button>
+<button onclick="nextlvl(false)">20</button>
+</div>
+
+
+<div id="lvl1next2" class="lvl" style="display:none;">
+<p>10 + 10 ÷ 2</p>
+<button onclick="nextlvl(true)">15</button>
+<button onclick="nextlvl(false)">10</button>
+<button onclick="nextlvl(false)">25</button>
+</div>
+
+
+<div id="lvl1next3" class="lvl" style="display:none;">
+<p>3 × 3 × 3</p>
+<button onclick="nextlvl(false)">9</button>
+<button onclick="nextlvl(false)">30</button>
+<button onclick="nextlvl(true)">27</button>
+</div>
+
+
+<div id="lvl1next4" class="lvl" style="display:none;">
+<p>كم عدد الأرقام من 0 إلى 100 ؟</p>
+<button onclick="nextlvl(false)">100</button>
+<button onclick="nextlvl(false)">99</button>
+<button onclick="nextlvl(true)">101</button>
+</div>
+
+
+<div id="lvl1next5" class="lvl" style="display:none;">
+<p>كم عدد زوايا المربع؟</p>
+<button onclick="nextlvl(false)">5</button>
+<button onclick="nextlvl(true)">4</button>
+<button onclick="nextlvl(false)">3</button>
+</div>
+
+
+<div id="lvl1next6" class="lvl" style="display:none;">
+<p>50 + 50 × 0</p>
+<button onclick="nextlvl(true)">50</button>
+<button onclick="nextlvl(false)">0</button>
+<button onclick="nextlvl(false)">100</button>
+</div>
+
+
+<div id="lvl1next7" class="lvl" style="display:none;">
+<p>2 4 6 8 ؟</p>
+<button onclick="nextlvl(true)">10</button>
+<button onclick="nextlvl(false)">9</button>
+<button onclick="nextlvl(false)">12</button>
+</div>
+
+
+<div id="lvl1next8" class="lvl" style="display:none;">
+<p>رجل عنده 4 أبناء لكل ابن أخت كم عدد الأبناء؟</p>
+<button onclick="nextlvl(false)">5</button>
+<button onclick="nextlvl(false)">8</button>
+<button onclick="nextlvl(true)">4</button>
+</div>
+
+
+<div id="lvl1next9" class="lvl" style="display:none;">
+<p>أب عنده 4 أبناء
+كل ابن عنده أخت واحدة
+كم عدد الأبناء؟</p>
+<button onclick="nextlvl(false)">8</button>
+<button onclick="nextlvl(false)">6</button>
+<button onclick="nextlvl(true)">5</button>
+</div>
+
+
+<div id="lvl1next10" class="lvl" style="display:none;">
+<p>عدد إذا ضربته في نفسه = 49</p>
+<button onclick="nextlvl(false)">6</button>
+<button onclick="nextlvl(false)">8</button>
+<button onclick="nextlvl(true)">7</button>
+</div>
+
+
+<div id="lvl1next11" class="lvl" style="display:none;">
+<p>أرجل 3 قطط و 2 كلاب</p>
+<button onclick="nextlvl(false)">10</button>
+<button onclick="nextlvl(false)">16</button>
+<button onclick="nextlvl(true)">20</button>
+</div>
+
+
+<div id="lvl1next12" class="lvl" style="display:none;">
+<p>كم زاوية في دائرتين؟</p>
+<button onclick="nextlvl(false)">2</button>
+<button onclick="nextlvl(true)">0</button>
+<button onclick="nextlvl(false)">4</button>
+</div>
+<div id="lvl1next13" class="lvl" style="display:none;">
+<p>إذا كان:
+أ = 1
+ب = 2
+ج = 3
+فكم = ج ب ا ؟</p>
+<button onclick="nextlvl(true)">321</button>
+<button onclick="nextlvl(false)">213</button>
+<button onclick="nextlvl(false)">312</button>
+</div>
+</div>
+<a href="act4.html"><button style="display: none;" id="next_act">إلى المرحلة الرابعة </button></a>
+<footer>speed up</footer>
+<audio id="alarmSound" src="alarm.mp3" preload="auto"></audio>
+    <audio src="v-mission-complete.mp3" id="plsound"></audio>
+    <audio src="tuomas_data-wrong-answer-21-199825.mp3" id="incorrect"></audio>
+    <audio src="mount-blade-ii-bannerlord-quest-succeeded-sound-online-audio-converter.mp3" id="nice"></audio>
+</div>
+
+
+<script src="act3js.js"></script>
+
+</body>
+</html>
