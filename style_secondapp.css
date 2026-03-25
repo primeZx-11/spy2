@@ -67,6 +67,10 @@ h3{
     h3{
         font-size: large;
     }
+  #timer{
+   font-size: 35px;
+   padding: 5px 8px;
+   
 }
 @media screen and (max-width: 860px){
     button{
